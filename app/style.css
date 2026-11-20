@@ -1,0 +1,58 @@
+body { font-family: Georgia, 'Iowan Old Style', Palatino, serif; background: #f6f3ee; color: #1d2129; margin: 0; padding: 0 28px 28px; font-size: 14px; }
+body, button, input, select { font-family: Georgia, 'Iowan Old Style', Palatino, serif; }
+.top { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; padding: 20px 0 8px; border-bottom: 3px solid #d24e2a; }
+h1 { font-size: 34px; margin: 0; letter-spacing: .5px; }
+.sub { color: #626a75; margin: 4px 0 0; font-size: 13px; }
+.score { text-align: right; min-width: 240px; }
+.score strong { font-size: 20px; }
+.bar { height: 10px; background: #ddd5c8; border-radius: 5px; margin: 6px 0 4px; overflow: hidden; }
+.bar span { display: block; height: 100%; background: #d24e2a; width: 0; }
+#gradeCounts { color: #626a75; font-size: 12px; }
+.tabs { display: flex; gap: 8px; margin: 14px 0 0; }
+.tabs button { border: 1px solid #c9c2b4; background: #fff; color: #1d2129; padding: 8px 16px; border-radius: 6px; cursor: pointer; font-size: 14px; }
+.tabs button.active { background: #d24e2a; border-color: #d24e2a; color: #fff; }
+.controls { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; margin: 12px 0; font-size: 13px; }
+.controls input[type="search"] { width: 190px; padding: 6px 8px; border: 1px solid #c9c2b4; border-radius: 6px; background: #fff; }
+.controls select { padding: 6px; border: 1px solid #c9c2b4; border-radius: 6px; background: #fff; }
+.controls button, .import { border: 1px solid #c9c2b4; background: #fff; padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 13px; }
+.check { display: flex; gap: 5px; align-items: center; }
+.split { display: grid; grid-template-columns: 1.55fr 1fr; gap: 18px; align-items: start; }
+.shown { color: #626a75; font-size: 12px; margin: 0 0 6px; }
+table { border-collapse: collapse; width: 100%; background: #fff; }
+th, td { border-bottom: 1px solid #e5e0d5; padding: 7px 9px; text-align: left; vertical-align: top; }
+th { background: #efece4; font-size: 12px; text-transform: uppercase; letter-spacing: .4px; }
+td { font-size: 13px; }
+tr { cursor: pointer; }
+tr.selected { background: #fdf0ea; }
+tr:hover { background: #faf7f1; }
+.tname { font-weight: bold; font-size: 13.5px; }
+.tdesc { color: #626a75; font-style: italic; font-size: 12px; }
+.tguide { font-size: 12.5px; }
+.badge { display: inline-block; padding: 2px 7px; border-radius: 10px; font-size: 11px; font-weight: bold; white-space: nowrap; }
+.badge.platinum { background: #d8e1ea; color: #1d2129; }
+.badge.gold { background: #d4af5a; color: #1d2129; }
+.badge.silver { background: #aeb6bf; color: #1d2129; }
+.badge.bronze { background: #b9784c; color: #fff; }
+.tag { display: inline-block; font-size: 10px; font-weight: bold; color: #d24e2a; border: 1px solid #d24e2a; border-radius: 3px; padding: 1px 4px; margin-left: 5px; vertical-align: 1px; }
+.count { display: inline-block; font-size: 11px; color: #626a75; border: 1px solid #c9c2b4; border-radius: 3px; padding: 1px 5px; margin-left: 5px; }
+.detail { background: #fff; border: 1px solid #ddd5c8; border-radius: 14px; padding: 16px 18px; position: sticky; top: 12px; }
+.detail h2 { margin: 0 0 4px; font-size: 21px; }
+.detail .official { color: #626a75; font-style: italic; margin: 0 0 10px; }
+.detail h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #d24e2a; margin: 14px 0 4px; }
+.detail p { margin: 0 0 8px; line-height: 1.5; }
+.detail ul { margin: 0; padding-left: 18px; line-height: 1.55; }
+.detail li { margin-bottom: 3px; }
+.detail .note { background: #fdf0ea; border-left: 3px solid #d24e2a; padding: 8px 10px; font-size: 13px; }
+.lede { font-size: 14px; line-height: 1.55; max-width: 900px; }
+.stage { background: #fff; border: 1px solid #ddd5c8; border-radius: 14px; padding: 14px 18px; margin: 0 0 12px; }
+.stage h2 { margin: 0 0 4px; font-size: 18px; }
+.stage h2 span { color: #d24e2a; }
+.stage p { margin: 0 0 8px; line-height: 1.5; color: #3a3f47; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { background: #f6f3ee; border: 1px solid #ddd5c8; border-radius: 12px; padding: 3px 9px; font-size: 12px; }
+.chip.done { background: #e6f0e4; border-color: #7ba05b; }
+.miss { background: #fff; border: 1px solid #ddd5c8; border-radius: 14px; padding: 12px 16px; margin: 0 0 10px; }
+.miss h2 { margin: 0 0 2px; font-size: 16px; }
+.miss p { margin: 0 0 6px; line-height: 1.5; }
+footer { margin-top: 22px; border-top: 1px solid #ddd5c8; padding-top: 10px; color: #626a75; font-size: 12px; line-height: 1.55; }
+footer a { color: #d24e2a; }
